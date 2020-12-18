@@ -11,8 +11,10 @@ import './assets/css/xenon-core.css'
 import './assets/css/xenon-components.css'
 import './assets/css/xenon-skins.css'
 import './assets/css/nav.css'
+import Axios from 'axios'
 
 Vue.config.productionTip = false
+Vue.prototype.$axios=Axios
 
 new Vue({
   router,

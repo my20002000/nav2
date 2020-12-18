@@ -15,14 +15,14 @@
         >
           <div class="xe-comment-entry">
             <a class="xe-user-img">
-              <img :src="web.logo" class="lozad img-circle" width="40" />
+              <img :src="web.logo" class="lozad img-circle" width="65" />
             </a>
             <div class="xe-comment">
               <a href="#" class="xe-user-name overflowClip_1">
                 <strong>{{ web.title }}</strong>
               </a>
               <p class="overflowClip_2">{{ web.desc }}</p>
-              <span v-show="web.is_hot" class="label label-pink pull-right hidden-collapsed">Hot</span>
+              <span v-show="web.is_hot" class="label label-pink pull-right ">Hot</span>
             </div>
           </div>
         </div>
